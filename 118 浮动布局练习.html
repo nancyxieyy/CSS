@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动布局练习</title>
+    <style>
+        .box {
+            /* 父盒子是标准流 */
+            width: 1200px;
+            height: 460px;
+            background-color: pink;
+            margin: auto;
+        }
+
+        .left {
+            float: left;
+            width: 230px;
+            height: 460px;
+            background-color: purple;
+        }
+
+        .right {
+            float: right;
+            width: 970px;
+            height: 460px;
+            background-color: skyblue;
+        }
+
+        * {
+            /* 清除内外边距 */
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            /* 清除li的小圆点 */
+            list-style: none;
+            width: 296px;
+            height: 280px;
+            float: left;
+            margin-right: 14px;
+            background-color: green;
+        }
+
+        .box2 {
+            width: 1226px;
+            height: 285px;
+            background-color: pink;
+            margin: auto;
+        }
+
+        .box2 .last {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left">左侧</div>
+        <div class="right">右侧</div>
+    </div>
+
+    
+    <ul class="box2">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li class="last">4</li>
+    </ul>
+</body>
+</html>

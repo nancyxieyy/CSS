@@ -1,0 +1,50 @@
+.nav a {
+    display: inline-block;
+    height: 58px;
+    width: 120px;
+    background-color: pink;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav .bg1 {
+    background: url(bg1.png) no-repeat;
+}
+
+.nav .bg2 {
+    background: url(bg2.png) no-repeat;
+}
+
+.nav .bg3 {
+    background: url(bg3.jpeg) no-repeat;
+}
+
+.nav .bg4 {
+    background: url(bg4.png) no-repeat;
+}
+
+.nav .bg5 {
+    background: url(bg5.png) no-repeat;
+}
+
+.bg1:hover {
+    background: url(bg11.png) no-repeat;
+}
+
+.bg2:hover {
+    background: url(bg22.png) no-repeat;
+}
+
+.bg3:hover {
+    background: url(bg33.png) no-repeat;
+}
+
+.bg4:hover {
+    background: url(bg22.png) no-repeat;
+}
+
+.bg5:hover {
+    background: url(bg33.png) no-repeat;
+}

@@ -1,0 +1,40 @@
+body {
+    font: 16px/28px 'Microsoft YaHei';/*大小/行高 字体*/
+}
+
+h1 {
+    text-align: center;/*剧中对齐*/
+    font-weight: 400;/*不加粗*/
+}
+
+.gray {
+    color: #888888;
+    font-size: 12px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sreach {
+    color: #666666;
+    width: 170px;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.footer {
+    color: #888888;
+    font-size: 12px;
+}
+
+.pic {
+    text-align: center;
+}
